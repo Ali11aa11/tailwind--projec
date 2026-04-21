@@ -1,0 +1,58 @@
+/* Custom hero background - compatible with Tailwind */
+.hero {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.2)),
+    url("./imges/i (4).webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.logo img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.layer {
+  background: transparent;
+  height: 100%;
+  width: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 0.5s;
+}
+.layer:hover {
+  background: rgba(226, 0, 0, 0.7);
+}
+.layer h1 {
+  width: 100%;
+  color: #fff;
+  font-weight: 500;
+  font-size: 26px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: 1s;
+}
+.layer:hover h1 {
+  bottom: 50%;
+  opacity: 1;
+}
+.lorden {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.2)),
+    url(imges/i\ \(11\).webp);
+}
+
+.about-hero {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.2)),
+    url("./imges/i\ \(12\).webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
